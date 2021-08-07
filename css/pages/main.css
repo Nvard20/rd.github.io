@@ -1215,3 +1215,8 @@ header .right_menu a:first-child:before {
     top: 4px !important;
 }
 }
+header ul li a:hover{
+    font-size: 16px !important;
+    color: #ca2f2d !important;
+    transition: .5s;
+}

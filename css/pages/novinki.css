@@ -701,7 +701,8 @@ header .right_menu a:first-child:before {
 
 @media (max-width:500px) {
     .container {
-        max-width: 385px
+        max-width: unset;
+		justify-content:center;
     }
     .container .box {
         width: 151px
@@ -960,6 +961,9 @@ line-height: 23px;
     padding-top: 0px !important;
     padding-bottom: 10px !important;
 
+}
+.box-img{
+	width: 100%;
 }
 @media (max-width: 600px){
    
